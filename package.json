@@ -1,0 +1,14 @@
+{
+  "name": "ui-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:NaokiOtsu/ui-component.git",
+  "author": "NaokiOtsu <n.otsu1029@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.7"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.(html|css|js)'"
+  }
+}
