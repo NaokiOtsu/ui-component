@@ -27,11 +27,7 @@
   </div>
 </div>
 
-<footer>
-  <ul>
-    <li><a href="/">TOP</a></li>
-  </ul>
-</footer>
+<?php include( $_SERVER['DOCUMENT_ROOT'] . '/footer.php'); ?>
 
 <script src="app.js"></script>
 </body>
