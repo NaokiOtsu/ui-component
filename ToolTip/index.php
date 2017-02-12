@@ -31,7 +31,7 @@ body { margin: 100px; }
   border: 10px solid transparent;
   border-top: 10px solid rgba(0,0,0,.5);
 }
-.tooltip-contents.active .tooltip-text {
+.tooltip-contents:hover .tooltip-text {
   display: block;
   animation: fadeIn .35s ease-in-out;
 }
@@ -53,6 +53,5 @@ body { margin: 100px; }
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/footer.php'); ?>
 
-<script src="./ToolTip/app.js"></script>
 </body>
 </html>
