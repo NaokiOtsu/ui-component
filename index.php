@@ -13,6 +13,7 @@
   <li><a href="Modal">Modal</a></li>
   <li><a href="Accordion">Accordion</a></li>
   <li><a href="Carousel">Carousel</a></li>
+  <li><a href="ToolTip">ToolTip</a></li>
 </ul>
 
 </body>
