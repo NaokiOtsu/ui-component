@@ -1,2 +1,2 @@
 # ui-component
-UIコンポーネント(ピュアなJavaScriptで実装)
+必要最小限の機能で実装(Vanilla JavaScript)されたUIコンポーネント集
