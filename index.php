@@ -10,6 +10,9 @@
 
 <ul>
   <li><a href="Tab">Tab</a></li>
+  <li><a href="Modal">Modal</a></li>
+  <li><a href="Accordion">Accordion</a></li>
+  <li><a href="Carousel">Carousel</a></li>
 </ul>
 
 </body>
