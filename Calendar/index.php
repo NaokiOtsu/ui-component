@@ -8,6 +8,16 @@
 body {
   margin: 50px;
 }
+.calendar-week-list {
+  display: table;
+  margin: 15px 0 0;
+  padding: 0;
+}
+.calendar-week-list li {
+  display: table-cell;
+  width: 50px;
+  text-align: center;
+}
 .calendar-table {
   display: table;
   margin-top: 10px;
@@ -27,6 +37,11 @@ body {
   border-bottom: 1px solid #000;
   border-right: 1px solid #000;
 }
+.calendar-week-list li.blue,
+.calendar-cell.blue { color: blue; }
+.calendar-week-list li.red,
+.calendar-cell.red { color: red; }
+.calendar-cell.now { background-color: lightyellow; }
 </style>
 <body>
 
@@ -34,26 +49,16 @@ body {
 <button id="prev">前の月</button>
 <button id="next">次の月</button>
 
-<div class="calendar-table">
-  <div class="calendar-row">
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-  </div>
-  <div class="calendar-row">
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-    <div class="calendar-cell">1</div>
-  </div>
-</div>
+<ul class="calendar-week-list">
+  <li class="red">日</li>
+  <li>月</li>
+  <li>火</li>
+  <li>水</li>
+  <li>木</li>
+  <li>金</li>
+  <li class="blue">土</li>
+</ul>
+<div class="calendar-table"></div>
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/footer.php'); ?>
 
