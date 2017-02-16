@@ -16,6 +16,7 @@
   <li><a href="ToolTip">ToolTip</a></li>
   <li><a href="Calendar">Calendar</a></li>
   <li><a href="ScrollBottomAddItem">ScrollBottomAddItem</a></li>
+  <li><a href="AutoComplete">AutoComplete</a></li>
 </ul>
 
 </body>
