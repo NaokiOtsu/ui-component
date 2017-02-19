@@ -17,6 +17,7 @@
   <li><a href="Calendar">Calendar</a></li>
   <li><a href="ScrollBottomAddItem">ScrollBottomAddItem</a></li>
   <li><a href="AutoComplete">AutoComplete</a></li>
+  <li><a href="Draggable">Draggable</a></li>
 </ul>
 
 </body>
