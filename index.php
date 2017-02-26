@@ -18,6 +18,7 @@
   <li><a href="ScrollBottomAddItem">ScrollBottomAddItem</a></li>
   <li><a href="AutoComplete">AutoComplete</a></li>
   <li><a href="Draggable">Draggable</a></li>
+  <li><a href="HeaderFixed">HeaderFixed</a></li>
 </ul>
 
 </body>
